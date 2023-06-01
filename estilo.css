@@ -1,0 +1,240 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	background-color: #262625;
+}
+
+.container{
+
+	margin: 80px auto;
+	width: 320px;
+}
+
+header{
+
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	gap: 10px;
+	width: 302px;
+	height: 56px;
+}
+
+header img{
+
+	width: 50px;
+	height: 50px;
+}
+
+header h1{
+
+	font-size: 24px;
+	letter-spacing: 3%;
+	color: #fff;
+}
+
+.form{
+
+	margin-top: 80px;
+	width: 302px;
+	margin-left: 10px;
+	margin-bottom: 23px;
+}
+
+.form form{
+
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+
+	font-size: 16px;
+	letter-spacing: 3%;
+	color: #a3a3a3;
+	margin-bottom: 4px;
+}
+
+form input {
+
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #586F8C;
+	outline: none;
+	color: #fff;
+	margin-bottom: 26px;
+}
+
+form button{
+
+	width: 100%;
+	background-color: #586F8C;
+	color: #e0e0e0;
+	border: none;
+	cursor: pointer;
+	padding: 12px 75px;
+}
+
+.resultado{
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 302px;
+	margin-left: 10px;
+	background-color: #586F8C;
+	color: #fff;
+	padding: 14px 23px;
+}
+
+.resultado span{
+
+	font-size: 16px;
+	letter-spacing: 6%;
+}
+
+.resultado #valor-total{
+
+	font-size: 32px;
+}
+
+.resultado p{
+
+	font-size: 14px;
+}
+
+.hidden{
+
+	display: none;
+}
+
+/*====Sidebar==== */
+/* Barra de navegação lateral */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+/*Cartão de visitas */
+
+.titulo{
+	color: white;
+	text-align: center;
+}
+
+}
+
+.titulo h1{
+	font-size: 3em !important;
+	padding: 5px; 
+
+}
+
+.nome-contato{
+	font-size: 4.5em;
+	overflow: visible;
+
+
+}
+
+.titulo p{
+	font-size: 22px;
+	font-family: monospace;
+	font-weight: normal;
+	text-align: center;
+	margin:auto;
+	color: #586F8C;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.links button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.links a:active{
+	color: #586F8C;
+}
+
+.links{
+	text-align: center;
+	padding: 10px;
+}
+
+/*
+
+.bg{
+	background-image: url("img/bg.jpg");
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+
+}
+*/
