@@ -1,3 +1,4 @@
+        //Declaração das variáveis e as atribui aos elementos HTML que tem os ids correspondentes
         let horasDiarias = document.querySelector("#horas-diarias");
         let diasMes = document.querySelector("#dias-mes");
         let despesas = document.querySelector("#despesas");
@@ -7,7 +8,7 @@
         let hidden = document.querySelector("#resultado")
 
         const enviar = document.querySelector("#calcular");
-
+        //Adiciona um evento de clique ao botão usando o método addEventListener
         enviar.addEventListener("click", function(e){
             e.preventDefault()
 
